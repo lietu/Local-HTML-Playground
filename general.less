@@ -1,0 +1,27 @@
+// Generic rules for making building other rules simpler
+
+// Centered text
+.center { text-align: center; }
+
+// Rounded corners
+.border-radius (@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+// Rounded corners, define each corner
+.border-radius-all (@topLeft, @topRight, @bottomRight, @bottomLeft) {
+	border-radius: @arguments;
+	-moz-border-radius: @arguments;
+	-webkit-border-radius: @arguments;
+}
+
+// Clear fix for containers with elements using float inside it
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

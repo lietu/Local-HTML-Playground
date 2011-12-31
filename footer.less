@@ -1,0 +1,29 @@
+// Footer styles
+#footer {
+	// Anchor the footer to the bottom of the window
+	position: fixed;
+	bottom: 0px;
+	height: @footerHeight;
+
+	// Give us a border
+	border-top: 1px solid darken(@footerBackground, 15%);
+
+	// And a background
+	background-color: @footerBackground;
+
+	// Round some corners
+	.border-radius-all(20px, 20px, 0, 0);
+
+	// Keep the footer full size, while limiting the content text to a smaller centered area
+	width: 100%;
+	p {
+	    max-width: 600px;
+	    margin: 15px auto;
+	}
+
+    // Center the text
+    .center;
+
+    // And make it a bit smaller
+    font-size: 12px;
+}

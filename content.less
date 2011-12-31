@@ -1,0 +1,26 @@
+body {
+    // Content's background color, best set to the whole body
+	background-color: @contentBackground;
+
+	// Basic styles for the whole content
+	font-size: 14px;
+
+	// Force scrollbar to be always visible, so the page doesn't bounce sideways when content grows
+	overflow-y: scroll;
+}
+
+// Content area
+#content {
+
+	// Make sure our content doesn't go below the menu or footer
+	margin-top: @headerHeight;
+	margin-bottom: @footerHeight;
+
+	// Some padding for the content, looks better
+	padding: 20px;
+
+	// Darken links a bit against the light color
+	a, a:visited, a:active {
+	    color: darken(@linkColor, 30%);
+	}
+}

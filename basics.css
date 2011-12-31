@@ -1,0 +1,22 @@
+/*
+Create some basic styles that were removed by the reset CSS
+... and add a bit more global rules
+*/
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 10px; }
+h1 { font-size: 18px; }
+h2 { font-size: 16px; }
+h3 { font-size: 15px; }
+h4 { font-size: 14px; }
+h5 { font-size: 13px; }
+h6 { font-size: 12px; }
+
+/* A bit of spacing between <p> -elements */
+p { margin: 8px 0; }
+
+/* Make the content scale to the full height of the window */
+html, body, #content { min-height: 100%; }
+
+/* Remove underline from links */
+a { text-decoration: none; }

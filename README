@@ -1,0 +1,65 @@
+Local HTML Playground
+---------------------
+
+
+What is it?
+-----------
+
+The purpose of this HTML Playground is to give an easy base to start working on your hobby projects, without the need to configure a web server (thus ... local) or other tools, while making it easily possible to separate the main layout from the content, so you don't have to copy & paste every change to the main layout to a dozen files after a while.
+
+Additional purpose is to promote modern web technologies, such as HTML 5, and LESS stylesheets.
+
+
+
+How does it work?
+-----------------
+
+It has a bit of JavaScript code embedded with it (playground.js), that wraps a little logic to the links so their content is loaded inside the content section of the layout when they are clicked. This means the layout outside the content section does not need to be reproduced in each .html file you create.
+
+
+
+Is there anything special I need to know about using it?
+--------------------------------------------------------
+
+To avoid breaking any normal links, the links that will only load to the content area need to be a bit special. You can create links to new pages, by creating a link to #file.html, e.g. <a href="#file.html">. When the link's destination starts with # and ends with .html, playground's JavaScript will catch it, and load the contents in the content area.
+
+If you want to use plain CSS, the LESS styles have been compiled to a plain CSS file with SimpLESS ( http://wearekiss.com/simpless ). But it's recommended you learn LESS, as it's a much better way to manage your stylesheets.
+
+
+
+Does it have any limitations, can I publish content done with it?
+-----------------------------------------------------------------
+
+The content created using the HTML playground should work just as well if uploaded to a normal web server, however since the world of web hosting is full of really odd solutions, I cannot make any promises about it working with the hosting platform you want.
+
+Due to security restrictions in the Google Chrome browser, you will have to start your browser with the "--allow-file-access-from-files" parameter. In Windows, you can add this to the end of the shortcut's "Target" -field.
+
+It will however work just fine locally on Mozilla Firefox and Internet Explorer 9 (maybe older ones as well). Most likely it will work fine on most other browsers as well.
+
+Internet Explorer 9 will ask to allow loading of the local content before doing it, just accept and it will work.
+
+Currently you can only load content to one area, an element with the id "content". If you want to, for example, add a sidebar, just do it in the content section and move the id="content" to another element, such as a <div> inside the section. This limitation might be removed in the future, if there is need for it.
+
+
+
+Licensing, what can I use it for?
+---------------------------------
+
+The HTML playground is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license. This basically means you can use it for any purpose, including commercial, modify it however you wish, as long as you fulfill the two requirements.
+
+1) Keep the same license
+1) Send a thank-you note to playground@lietu.net saying you're using it.
+
+See license in detail at http://creativecommons.org/licenses/by-sa/3.0/
+
+
+
+Where to get more help?
+-----------------------
+
+Good resources to learning proper HTML, CSS and LESS are available everywhere on the internet. Here's some suggestions.
+
+HTML:
+ - http://www.w3schools.com/html/
+ - http://www.w3schools.com/html5/
+ - 

@@ -1,0 +1,28 @@
+// Header area
+#header {
+
+	// Anchor the header to the top of the page
+	position: absolute;
+	top: 0px;
+	height: @headerHeight;
+	width: 100%;
+
+	// Set the background and bottom border
+	background-color: @headerBackground;
+    border-bottom: 1px solid darken(@headerBackground, 15%);
+
+	// Our menu item list
+	ul {
+	    // Center the items
+		.center;
+		// Put a bit of margin to the top
+		margin-top: 15px;
+
+		li {
+		    // Make the items show up side by side, instead of below each other
+		    display: inline;
+			// A bit of margin between items
+			margin: 15px;
+		}
+	}
+}
