@@ -30,7 +30,7 @@ If you want to use plain CSS, the LESS styles have been compiled to a plain CSS 
 Does it have any limitations, can I publish content done with it?
 -----------------------------------------------------------------
 
-The content created using the HTML playground should work just as well if uploaded to a normal web server, however since the world of web hosting is full of really odd solutions, I cannot make any promises about it working with the hosting platform you want.
+The content created using the HTML playground should work just as well if uploaded to a normal web server, however since the world of web hosting is full of really odd solutions, no promises can be made about it working with the hosting platform you want.
 
 Due to security restrictions in the Google Chrome browser, you will have to start your browser with the "--allow-file-access-from-files" parameter. In Windows, you can add this to the end of the shortcut's "Target" -field.
 
@@ -48,7 +48,7 @@ Licensing, what can I use it for?
 The HTML playground is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license. This basically means you can use it for any purpose, including commercial, modify it however you wish, as long as you fulfill the two requirements.
 
 1) Keep the same license
-1) Send a thank-you note to playground@lietu.net saying you're using it.
+1) Send a thank-you note to playground@lietu.net or at the project page in https://github.com/lietu/Local-HTML-Playground saying you're using it.
 
 See license in detail at http://creativecommons.org/licenses/by-sa/3.0/
 
@@ -62,4 +62,10 @@ Good resources to learning proper HTML, CSS and LESS are available everywhere on
 HTML:
  - http://www.w3schools.com/html/
  - http://www.w3schools.com/html5/
- - 
+
+CSS:
+ - http://www.w3schools.com/css/
+
+LESS:
+ - http://lesscss.org/ 
+
